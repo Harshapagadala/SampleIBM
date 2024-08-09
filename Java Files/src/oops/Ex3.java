@@ -24,8 +24,8 @@ class Dog extends Animal{
 public class Ex3 {
 	public static void main(String[] args) {
 		Dog myDog = new Dog();
-		myDog.eat();
-		myDog.Bark();
+	    myDog.eat();                     //Inherited class
+		myDog.Bark();                    //Subclass
 		System.out.println("This is the process of inheritance.");
 	}
 
